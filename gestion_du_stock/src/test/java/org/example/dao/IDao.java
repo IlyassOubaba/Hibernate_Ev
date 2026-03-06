@@ -1,0 +1,11 @@
+package org.example.dao;
+
+import java.util.List;
+
+public interface IDao<T> {
+    void save(T o);
+    void update(T o);
+    void delete(T o);
+    T findById(int id);
+    List<T> findAll();
+}

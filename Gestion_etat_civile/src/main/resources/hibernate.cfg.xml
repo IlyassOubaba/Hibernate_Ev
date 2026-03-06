@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <!-- Connexion à la base de données -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">  jdbc:mysql://localhost:3306/etatcivil_db</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password"></property>
+
+        <!-- Dialecte Hibernate -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+        <!-- Afficher les requêtes SQL -->
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.format_sql">true</property>
+
+        <!-- Stratégie de création de schéma -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- Liste des classes mappées (entités) -->
+        <mapping class="org.example.entity.Femme"/>
+        <mapping class="org.example.entity.Homme"/>
+        <mapping class="org.example.entity.Mariage"/>
+        <mapping class="org.example.entity.Personne"/>
+        <mapping class="org.example.entity.MariageId"/>
+
+
+
+    </session-factory>
+</hibernate-configuration>
