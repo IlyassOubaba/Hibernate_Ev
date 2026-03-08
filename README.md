@@ -67,11 +67,11 @@ Application de gestion de projets et tâches développée avec **Java**, **Hiber
 Permettre de gérer des projets, tâches, utilisateurs et leurs relations via une couche persistance ORM avec Hibernate.
 
 Fonctionnalités principales (selon implémentation typique) :
-  -->  Créer / modifier / supprimer des **projets**
-  -->  Ajouter / assigner / suivre des **tâches**
-  -->  Gérer des **utilisateurs** / membres / rôles
-  -->  Suivi de l'état d'avancement (To Do → In Progress → Done)
-  -->  Relations entre entités (projet ↔ tâches ↔ utilisateurs)
+  - Créer / modifier / supprimer des **projets**
+  - Ajouter / assigner / suivre des **tâches**
+  - Gérer des **utilisateurs** / membres / rôles
+  - Suivi de l'état d'avancement (To Do → In Progress → Done)
+  - Relations entre entités (projet ↔ tâches ↔ utilisateurs)
 
 ---
 
@@ -80,7 +80,7 @@ Fonctionnalités principales (selon implémentation typique) :
 - **Java** (JDK 17.0.15)
 - **Hibernate** 
 - **Maven** (gestion des dépendances)
-- Base de données : (MySQL / H2 – à configurer dans `hibernate.cfg.xml` ou `persistence.xml`)
+- Base de données : **MySQL**
 - Patron DAO / Service (architecture en couches)
 - (éventuellement) : Log4j / SLF4J, JUnit
 
@@ -108,4 +108,47 @@ Il constitue une base solide pour comprendre comment construire une application 
 
 # 🔹 Projet 3
 
+# Gestion d'État Civil 
+
+Application Java de gestion simplifiée d'un registre d'état civil utilisant **Hibernate**, **JPA** et **Maven**.
+
+---
+
+##  Objectif du projet
+
+Ce projet a pour but de mettre en pratique les concepts de **persistance objet-relationnelle** avec Hibernate/JPA à travers la gestion des informations typiques d'un état civil :
+  -  Citoyens / Personnes
+  -  Naissances, mariages, décès
+  - Actes d'état civil
+  - Relations familiales (parents, conjoints, enfants)
+
+---
+
+##  Technologies utilisées
+
+- **Java** (JDK 17.0.15) 
+- **Maven** (gestion des dépendances)
+- **Hibernate** (ORM)
+- **JPA** (API standard)
+- Base de données : **MySQL** 
+
+---
+
+## Diagramme de classe
+
+<img width="917" height="328" alt="image" src="https://github.com/user-attachments/assets/f878fd9e-ec34-40e8-986c-2d9b36237c1c" />
+
+---
+
+## Video Demo
+
+
+
+https://github.com/user-attachments/assets/138d309d-dedc-4ee4-944a-458725dab38a
+
+---
+
+## Conclusion
+Ce petit projet permet de consolider les bases de Hibernate & JPA dans un contexte concret et compréhensible : la gestion d’état civil.
+Malgré sa simplicité, il couvre les points essentiels : entités, relations, DAO, transactions, configuration, et peut servir de base solide pour des fonctionnalités plus avancées.
 
