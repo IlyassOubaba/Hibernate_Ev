@@ -28,6 +28,15 @@ Ce projet fait partie du repository [Hibernate_Ev](https://github.com/IlyassOuba
 
 ---
 
+## Architecture du Projet
+
+
+<img width="201" height="731" alt="gestioDuStock-Page-2 drawio" src="https://github.com/user-attachments/assets/8404241d-ae1e-49b9-b906-ffeaa78211ce" />
+
+
+
+---
+
 ## Diagramme de classe
 
 <img width="873" height="400" alt="image" src="https://github.com/user-attachments/assets/fc5df608-c4c9-418c-a69d-87b1f89033a8" />
@@ -86,6 +95,17 @@ Fonctionnalités principales (selon implémentation typique) :
 
 ---
 
+## Architecure du projet
+
+<img width="201" height="731" alt="gestion_projet drawio" src="https://github.com/user-attachments/assets/2f1cc1ff-96e3-4c3d-9e32-2b5ab1dd2469" />
+
+
+
+
+
+---
+
+
 ## Diagramme de classe
 
 <img width="930" height="449" alt="image" src="https://github.com/user-attachments/assets/269df0f3-ebe6-4ed1-a9b5-39387bba55d4" />
@@ -131,6 +151,16 @@ Ce projet a pour but de mettre en pratique les concepts de **persistance objet-r
 - **Hibernate** (ORM)
 - **JPA** (API standard)
 - Base de données : **MySQL** 
+
+---
+
+## Architecture du projet
+
+
+<img width="201" height="731" alt="gestionEtatCivil drawio" src="https://github.com/user-attachments/assets/08b8ce35-2f3b-47ba-834d-38661f05c753" />
+
+
+
 
 ---
 
